@@ -21,7 +21,7 @@ const ResidentInfo = ({ urlResident }) => {
   return (
     <>
       {residentInfo && (
-        <article className="relative">
+        <article className="relative h-full">
           <img className="rounded-tl-lg rounded-tr-lg" src={residentInfo.image} alt="" />
           <div className="bg-teal-900 rounded-bl-lg rounded-br-lg p-2">
             <h3 className="font-bold text-2xl border-b border-teal-400 mb-2 pl-1 pb-2">

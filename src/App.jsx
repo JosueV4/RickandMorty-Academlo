@@ -63,10 +63,10 @@ const App = () => {
       <div>
         <img className="w-min-full" src={banner} alt="banner" />
       </div>
-      <form className="my-10 w-10/12 flex gap-2" onSubmit={handleSubmit}>
+      <form className="my-10 w-10/12 flex" onSubmit={handleSubmit}>
         <div className="relative flex-1">
           <input
-            className="text-white bg-teal-900 w-full p-3 pl-10"
+            className="text-white bg-teal-900 w-full p-3 pl-10 rounded-tl rounded-bl"
             type="search"
             name="id-location"
             value={idLocationValue}
@@ -89,7 +89,7 @@ const App = () => {
         </div>
         <button
           type="submit"
-          className="font-semibold cursor-pointer bg-teal-700 text-white py-3 px-4 hover:bg-teal-800 rounded-r-md w-auto"
+          className="font-semibold cursor-pointer bg-teal-700 text-white py-3 px-4 hover:bg-teal-600 rounded-r-md w-auto"
         >
           Search
         </button>
